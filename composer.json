@@ -1,0 +1,30 @@
+{
+  "name": "pedromazala/tdc-2019-php-liskov",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pedro Mázala",
+      "email": "pedroh.mazala@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Liskov\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Test\\Liskov\\": "test/src"
+    }
+  },
+  "scripts": {
+    "test": "bin/phpunit --colors=alwaays"
+  }
+}
